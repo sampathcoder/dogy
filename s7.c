@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -22,6 +21,6 @@ int main()
         
     }
     
-    printf(" ttl space=%d",m-1);
+    printf(" ttl another strings=%d",m-1);
 
 }
