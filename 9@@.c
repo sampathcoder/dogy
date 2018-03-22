@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main()
+{
+    int a1[100],a,c,m,k,i,flag=0;
+    scanf("%d%d",&a,&c);
+    if(a<=c)
+    {
+        k=c;
+    }
+    else
+    {
+        k=a;
+    }
+    if(a>=c)
+    {
+    m=c;    
+    }
+    else
+    {
+        m=a;
+    }
+    for(i=1;i<=4;i++)
+    {
+        scanf("%d",&a1[i]);
+    }
+    for(i=1;i<=4;i++)
+    {
+        if((a1[i]<=k)&&(a1[i]>=m))
+        {
+            flag=1;
+        }
+    }
+    if(flag==1)
+    {
+        printf("yes");
+    }
+    else
+    {
+        printf("no");
+    }
+
+}
