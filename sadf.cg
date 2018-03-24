@@ -11,7 +11,8 @@ int main()
 	scanf("%d", &n);
 
 	printf("Enter Strings one by one: \n");
-	for(i=0; i< n ; i++) {
+	for(i=0; i< n ; i++) 
+	{
 		scanf("%s",sring[i]);
 	}
 /*	for(i=0; i< n ; i++) 
@@ -90,9 +91,12 @@ for(i=0;i<n;i++)
     printf("%d",k);
     a[n1];
     n1++;
+    o1=n1;
     k=0;
-    for(n1=
-    )
+    for(n1=0;n1<=o1;n1++)
+    {
+        printf("%d",a[n1]);
+    }
 }
 
 	
